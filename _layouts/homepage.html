@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <!-- Google tag (gtag.js) -->
+                  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2M50WFV6BE"></script>
+                  <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                  
+                    gtag('config', 'G-2M50WFV6BE');
+                  </script>
+    
     <title>{{ site.title }} | {{site.affiliation}}</title>
 
     <meta charset="UTF-8">
@@ -110,15 +120,7 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
  <!--    {% if site.google_analytics %} -->
-                  <!-- Google tag (gtag.js) -->
-                  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2M50WFV6BE"></script>
-                  <script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                  
-                    gtag('config', 'G-2M50WFV6BE');
-                  </script>
+
 <!--     {% endif %} -->
   </body>
 </html>
