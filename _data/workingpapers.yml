@@ -2,5 +2,5 @@ main:
 
   - title: Matching With a Status Quo The Agreeable Core
     authors: Peter Doe
-    pdf: https://www.peterdoe.com/assets/files/AgreeableCore.pdf
+    pdf: assets/files/AgreeableCore.pdf
     notes: JMP (first version)
