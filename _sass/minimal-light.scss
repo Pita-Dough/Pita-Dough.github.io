@@ -184,7 +184,9 @@ papertitle {
 
 
   .image {
-    border-radius: 0.35em;
+    /// border-radius: 0.35em;
+    width: 0.7em;
+    height: 0.7em;
     border: 0;
     display: inline-block;
     position: relative;
@@ -220,7 +222,7 @@ papertitle {
         padding: 20px;
         // border: 1px solid #ddd;
         // padding: 3px;
-        // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+        box-shadow: 0 -1px 5px 1px rg ba(200, 200, 200, 0.3);
       }
 
     #header .image.avatar {
