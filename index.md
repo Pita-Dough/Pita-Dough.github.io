@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hello, I am a Ph.D. student at Caltech.
+Hello, I am a Ph.D. student at Caltech. I am on the job market this Fall (2024).
 
 ## Research Interests
 
