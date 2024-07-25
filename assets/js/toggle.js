@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", function() {
             // }
             if (toggleBlocks[index].style.maxHeight){
                 toggleBlocks[index].style.maxHeight = null;
-                button.innerHTML = "Abstract <i class='fas fa-chevron-down' style='font-size:12px'></i>"; // this − minus sign is of equal length as +  
+                button.innerHTML = "ABSTRACT <i class='fas fa-chevron-down' style='font-size:12px'></i>"; // this − minus sign is of equal length as +  
               } else {
                 toggleBlocks[index].style.maxHeight = toggleBlocks[index].scrollHeight + "px";
-                button.innerHTML = "Abstract <i class='fas fa-chevron-up' style='font-size:12px'></i>"; 
+                button.innerHTML = "ABSTRACT <i class='fas fa-chevron-up' style='font-size:12px'></i>"; 
               }
           
         });
