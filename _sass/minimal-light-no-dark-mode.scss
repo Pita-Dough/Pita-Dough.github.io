@@ -321,7 +321,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#050505;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -329,7 +329,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:#050505;
 }
 
 header ul a:active {
@@ -531,7 +531,7 @@ footer {
 
 
 .collapsible p {
-  background-color: #e5e5e5; /* Add light gray background to paragraphs */
+  /*background-color: #e5e5e5; /* Add light gray background to paragraphs */
   padding: 5px; /* Add padding for better readability */
   margin: 0; /* Remove default paragraph margin */
   text-indent:1em;
