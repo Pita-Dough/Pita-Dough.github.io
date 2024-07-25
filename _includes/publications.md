@@ -21,6 +21,14 @@
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
+      {% if link.abstract %} 
+      <a>
+      <!-- <button class="btn btn-sm btn-bd-primary" type="button"></button> -->
+      <button class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid black" id="toggleButton{{ forloop.index }}">
+      Abstract <i class='fas fa-chevron-down' style='font-size:12px'></i>
+      </button> 
+      </a>
+      {% endif %}
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       {% endif %}
