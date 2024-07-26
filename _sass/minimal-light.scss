@@ -598,7 +598,7 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   .collapsible {
-    background-color: #70212b;
+    background-color: #20212b;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -608,7 +608,7 @@ footer {
   
   
   .collapsible p {
-    background-color: #70212b; /* Add light gray background to paragraphs */
+    background-color: #20212b; /* Add light gray background to paragraphs */
     padding: 5px; /* Add padding for better readability */
     margin: 0; /* Remove default paragraph margin */
     text-indent:1em;
