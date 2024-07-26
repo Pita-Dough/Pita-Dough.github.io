@@ -380,32 +380,6 @@ footer {
   text-align:center;
 }
 
-.collapsible {
-  background-color: #e5e5e4; 
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  line-height: 1.25;
-  padding-top: 2px;
-}
-
-
-.collapsible p {
-  background-color: #e5e5e5; /* Add light gray background to paragraphs */
-  padding: 5px; /* Add padding for better readability */
-  margin: 0; /* Remove default paragraph margin */
-  text-indent:5em;
-  hyphens: auto;
-  hyphenate-limit-chars: 10 4 4;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -webkit-hyphens: auto;
-  -webkit-hyphenate-character:10;
-  -webkit-hyphenate-limit-after:4;
-  -webkit-hyphenate-limit-before:4;
-}
-
-
 
 
 @media print, screen and (max-width: 960px) {
@@ -546,5 +520,30 @@ footer {
   font-family: monospace;
 }
 
+
+.collapsible {
+  background-color: #e5e5e4; 
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  line-height: 1.25;
+  padding-top: 2px;
+}
+
+
+.collapsible p {
+  background-color: #e5e5e5; /* Add light gray background to paragraphs */
+  padding: 5px; /* Add padding for better readability */
+  margin: 0; /* Remove default paragraph margin */
+  text-indent:5em;
+  hyphens: auto;
+  hyphenate-limit-chars: 10 4 4;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-character:10;
+  -webkit-hyphenate-limit-after:4;
+  -webkit-hyphenate-limit-before:4;
+}
 
 
