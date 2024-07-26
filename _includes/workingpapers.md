@@ -32,7 +32,7 @@
       </a>
       {% endif %}
       {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid white;background-color:#20212b;color:white">PDF</a>
+      <a><button href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid white;background-color:#20212b;color:white">PDF</button></a>
       {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
