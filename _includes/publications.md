@@ -25,7 +25,7 @@
       <a>
       <!-- <button class="btn btn-sm btn-bd-primary" type="button"></button> -->
       <button class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid black" id="toggleButton{{ forloop.index }}">
-      Abstract <i class='fas fa-chevron-up' style='font-size:12px'></i>
+      Abstract <i class='fas fa-chevron-down' style='font-size:12px'></i>
       </button> 
       </a>
       {% endif %}
