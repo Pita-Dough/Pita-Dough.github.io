@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", function() {
             // }
             if (toggleBlocks[index].style.maxHeight){
                 toggleBlocks[index].style.maxHeight = null;
-                button.innerHTML = "Abstract <i class='btn btn-sm z-depth-0' role='button' target='_blank' style='font-size:12px;color:white'><i class='fas fa-chevron-down' style='font-size:12px;color:white'></i>"; // this − minus sign is of equal length as +  
+                button.innerHTML = "Abstract <i class='btn btn-sm z-depth-0' role='button' target='_blank' style='font-size:12px;color:white;cursor:pointer'><i class='fas fa-chevron-down' style='font-size:12px;color:white'></i>"; // this − minus sign is of equal length as +  
               } else {
                 toggleBlocks[index].style.maxHeight = toggleBlocks[index].scrollHeight + "px";
-                button.innerHTML = "Abstract <i class='btn btn-sm z-depth-0' role='button' target='_blank' style='font-size:12px;color:white'><i class='fas fa-chevron-up' style='font-size:12px;color:white'></i>"; 
+                button.innerHTML = "Abstract <i class='btn btn-sm z-depth-0' role='button' target='_blank' style='font-size:12px;color:white;cursor:pointer'><i class='fas fa-chevron-up' style='font-size:12px;color:white'></i>"; 
               }
 
         });
