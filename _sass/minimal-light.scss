@@ -17,9 +17,6 @@
 /*@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}*/
 .social-icons a {color: #005169 !important; }
 
-/*.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
-    color:black;
-    transform: scale(1.2)}*/
  
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#fffaf2;
     color:black;
@@ -229,9 +226,9 @@ a {
   text-decoration:none;
 }
 
-a:hover {
+/*a:hover {
   color:#005169;
-}
+}*/
 
 a small {
   font-size:11px;
@@ -240,9 +237,9 @@ a small {
   display:block;
 }
 
-a:hover small {
+/*a:hover small {
   color:#005169;
-}
+}*/
 
 .wrapper {
   width:960px;
