@@ -62,7 +62,7 @@
   border-radius:3.6rem;
   margin:-1.8rem}
 
-/*
+
 .twitter span{
   background-color:#fff2db}
 
@@ -74,7 +74,7 @@
 
 .github span{
   background-color:#fff2db}
-*/
+
 email {
     font-size: 14px;
     font-family: "Ubuntu Mono";
@@ -95,7 +95,7 @@ email {
   width:3.6rem;
   z-index:10}
 
-/*.icon-button .icon-twitter{
+.icon-button .icon-twitter{
   color:#4099ff}
 
 .icon-button .icon-facebook{
@@ -108,7 +108,7 @@ email {
   color:#0077B5}
 
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
-*/
+
 autocolor{
   color:#000d12;
 }
@@ -136,10 +136,6 @@ papertitle {
   body {
       background-color: #fff2db;
       color: #000d12;
-  }
-
-  autocolor{
-    color:#fff2db;
   }
 
   lightonly {
