@@ -26,8 +26,8 @@
       {% if link.abstract %} 
       <a >
       <!-- <button class="btn btn-sm btn-bd-primary" type="button"></button> -->
-      <button class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid white;background-color:#08090f;color:white;cursor:pointer" id="toggleButton{{ forloop.index }}" >
-      Abstract <i class='fas fa-chevron-down' style='font-size:12px;color:white'></i>
+      <button class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid #000d12;;cursor:pointer" id="toggleButton{{ forloop.index }}" >
+      Abstract <i class='fas fa-chevron-down' style='font-size:12px;'></i>
       </button> 
       </a>
       {% endif %}
