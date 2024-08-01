@@ -20,42 +20,7 @@
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
     transform: scale(1.2)}
-    /*
-    .social-icons a:after {
-        content: '';
-        display: block;
-        margin: 0px;
-        height: 1px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-      }
-      .social-icons a:hover:after {
-        width: 100%;
-        background: #337ab7;
-      }
-     */
-
-/*@media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#08090f;
-    color:black;
-    transform: scale(1.2)} 
-    /*
-    .social-icons a:after {
-        content: '';
-        display: block;
-        margin: 0px;
-        height: 1px;
-        width: 0px;
-        background: transparent;
-        transition: width .5s ease, background-color .5s ease;
-      }
-    .social-icons a:hover:after {
-        width: 100%;
-        background: #a0b0ff;
-      }
-    */
-/*}
-*/
+ 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#001d26;
     color:black;
     transform: scale(1.2)} 
@@ -97,6 +62,7 @@
   border-radius:3.6rem;
   margin:-1.8rem}
 
+/*
 .twitter span{
   background-color:#fff2db}
 
@@ -108,7 +74,7 @@
 
 .github span{
   background-color:#fff2db}
-
+*/
 email {
     font-size: 14px;
     font-family: "Ubuntu Mono";
@@ -116,7 +82,7 @@ email {
 
 .icon-button i{
   background:none;
-  color:white;
+  /*color:white;*/
   height:3.6rem;
   left:0;
   line-height:3.6rem;
@@ -129,7 +95,7 @@ email {
   width:3.6rem;
   z-index:10}
 
-.icon-button .icon-twitter{
+/*.icon-button .icon-twitter{
   color:#4099ff}
 
 .icon-button .icon-facebook{
@@ -142,11 +108,12 @@ email {
   color:#0077B5}
 
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
-
+*/
 autocolor{
   color:#000d12;
 }
 
+/*
 lightonly {
   visibility: visible;
 }
@@ -154,6 +121,7 @@ lightonly {
 darkonly {
   visibility: hidden;
 }
+*/
 
 education {
     font-weight: 500;
