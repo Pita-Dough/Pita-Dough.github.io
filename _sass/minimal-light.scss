@@ -17,11 +17,11 @@
 /*@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}*/
 .social-icons a {color: #001d26 !important; }
 
-.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
+/*.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
-    transform: scale(1.2)}
+    transform: scale(1.2)}*/
  
-.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#001d26;
+.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#fffaf2;
     color:black;
     transform: scale(1.2)} 
 
@@ -62,7 +62,7 @@
   border-radius:3.6rem;
   margin:-1.8rem}
 
-
+/*
 .twitter span{
   background-color:#fff2db}
 
@@ -74,7 +74,7 @@
 
 .github span{
   background-color:#fff2db}
-
+*/
 email {
     font-size: 14px;
     font-family: "Ubuntu Mono";
@@ -95,6 +95,7 @@ email {
   width:3.6rem;
   z-index:10}
 
+/*
 .icon-button .icon-twitter{
   color:#4099ff}
 
@@ -106,6 +107,7 @@ email {
 
 .icon-button .icon-linkedin{
   color:#0077B5}
+*/
 
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
