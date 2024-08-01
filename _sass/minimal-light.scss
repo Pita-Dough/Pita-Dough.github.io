@@ -207,27 +207,16 @@ papertitle {
 */
 h1 {
   font-weight: 500;
-  color:#000d12;
+  color:#001d26;
   margin:0 0 20px;
 }
 
 h2 {
-  color:#000d12;
+  color:#001d26;
   font-weight: 500;
   margin:2px 0px 15px;
   font-size: 157%;
 }
-
-/*@media (prefers-color-scheme: dark) {
-  h1, h3, h4, h5, h6 {
-    color:rgb(62, 183, 240);
-  }
-
-  h2 {
-    color:rgb(62, 183, 240);
-  }
-}*/
-
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
@@ -249,18 +238,6 @@ a {
 a:hover {
   color:#001d26;
 }
-
-/*@media (prefers-color-scheme: dark) {
-  a {
-    color:rgb(62, 183, 240);
-  }
-}*/
-
-/*
-a {
-    color:rgb(62, 183, 240);
-  }
-*/
 
 a small {
   font-size:11px;
