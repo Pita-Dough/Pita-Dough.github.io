@@ -6,7 +6,7 @@ layout: homepage
 
 Hello, I am a Ph.D. student at Caltech. I am on the job market this Fall (2024).
 
-<a href="assets/files/CV-PNDoe.pdf" style="cursor:pointer"><button  class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid #000d12;cursor:pointer;color:#000d12;background-color:#fffaf2;">curriculum vitae</button></a>
+<a href="assets/files/CV-PNDoe.pdf" style="cursor:pointer"><button  class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid #000d12;cursor:pointer;color:#000d12;background-color:#fffaf2;">Curriculum Vitae</button></a>
 
 ## Research Interests
 
