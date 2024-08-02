@@ -33,6 +33,9 @@
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" style="cursor:pointer"><button  class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid #000d12;cursor:pointer;color:#000d12;background-color:#fffaf2;">PDF</button></a>
       {% endif %}
+      {% if link.arXiv %} 
+      <a href="{{ link.arXiv }}" style="cursor:pointer"><button  class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid #000d12;cursor:pointer;color:#000d12;background-color:#fffaf2;">arXiv</button></a>
+      {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
