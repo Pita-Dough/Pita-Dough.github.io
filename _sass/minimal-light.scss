@@ -531,7 +531,7 @@ footer {
 
   .collapsible {
     background-color: #fffaf2;
-    max-height: 0;
+    max-height: 2px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     line-height: 1.25;
