@@ -17,7 +17,7 @@
     {% endif %}
   </div>
   -->
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 0px;">
+  <div class="col-sm-9" style="position: relative;padding-right: 0px;padding-left: 0px;">
       <div class="title"><a>{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
