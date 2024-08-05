@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             //     button.textContent = "Abstract+";
             // }
             if (toggleBlocks[index].style.maxHeight){
-                toggleBlocks[index].style.maxHeight = 1px;
+                toggleBlocks[index].style.maxHeight = null;
                 button.innerHTML = "Abstract <i class='btn btn-sm z-depth-0' role='button' target='_blank' style='font-size:12px;cursor:pointer;color:#000d12;background-color:#fffaf2;'><i class='fas fa-chevron-down' style='font-size:12px;color:#2086c9;background-color:#fffaf2;'></i>"; // this − minus sign is of equal length as +  
               } else {
                 toggleBlocks[index].style.maxHeight = toggleBlocks[index].scrollHeight + "px";
