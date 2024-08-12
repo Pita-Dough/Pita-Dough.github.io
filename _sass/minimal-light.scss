@@ -59,19 +59,6 @@
   border-radius:3.6rem;
   margin:-1.8rem}
 
-/*
-.twitter span{
-  background-color:#fff2db}
-
-.facebook span{
-  background-color:#fff2db}
-
-.linkedin span{
-  background-color:#fff2db}
-
-.github span{
-  background-color:#fff2db}
-*/
 email {
     font-size: 14px;
     font-family: "Ubuntu Mono";
@@ -92,35 +79,12 @@ email {
   width:3.6rem;
   z-index:10}
 
-/*
-.icon-button .icon-twitter{
-  color:#4099ff}
-
-.icon-button .icon-facebook{
-  color:#4286f4}
-
-.icon-button .icon-github{
-  color:#000;}
-
-.icon-button .icon-linkedin{
-  color:#0077B5}
-*/
-
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{
   color:#000d12;
 }
 
-/*
-lightonly {
-  visibility: visible;
-}
-
-darkonly {
-  visibility: hidden;
-}
-*/
 
 education {
     font-weight: 500;
@@ -433,7 +397,7 @@ footer {
 
    .image.avatar img {
         border-radius: 10%;
-        width: 117px;
+        width: 180px;
         padding:2.0px;
       }
   #head1o2 {
@@ -489,7 +453,7 @@ footer {
 
   .image.avatar img {
       border-radius: 10%;
-      width: 95px;
+      width: 150px;
       padding:2.0px;
   }
   #head1o2 {
