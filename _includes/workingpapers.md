@@ -40,7 +40,7 @@
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
       {% if link.mathematica %} 
-      <a href="{{ link.mathematica }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Mathematica Notebook</a>
+      <a href="{{ link.mathematica }}" style="cursor:pointer"><button  class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;border:1px solid #2086c9;cursor:pointer;color:#2086c9;background-color:#fffaf2;">Mathematica Notebook</button></a>
       {% endif %}
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
