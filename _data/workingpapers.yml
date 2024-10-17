@@ -6,3 +6,9 @@ main:
     arXiv: https://arxiv.org/abs/2406.08700
     notes: JMP (first version)
     abstract: "We provide a framework to unify classic models of two-sided matching with recent models of recontracting. In the classic model, agents from two sides must be matched; in models of recontracting, agents improve a status quo match. We generalize the core (matches not blocked by any coalition) from cooperative game theory to our setting by restricting the set of permissible coalitions to coalitions containing neither or both agents in a status quo match, dubbed agreeable coalitions. The agreeable core is the set of all weak improvements of the status quo that are not blocked by any agreeable coalition. Our main result is that the agreeable core is nonempty and can be found through a computationally efficient and economically meaningful algorithm: our Propose-Exchange algorithm. The applications of the agreeable core include early decision, out-of-match agreements in the NRMP, matching with minimum constraints, and efficiency in school choice."
+
+  - title: "Ranked-to-Match: The Effects of Early Matching in the NRMP"
+    authors: Peter Doe
+    pdf: assets/files/Rank2Match.pdf
+    mathematica: assets/files/SuppMaterial-Rank2Match.nb
+    abstract: "We study a behavioral model of early matching within the context of the National Resident Matching Program. In our model, two hospitals choose to give early offers to doctors prior to a stable match. Some doctors have a behavioral preference to early match while others do not. We show that the less-desirable program benefits from the option to make early offers. Our results provide a theoretical foundation for behavior widely documented within the medical ethics and graduate medical education literature and confirm beliefs commonly held by residency program directors."
