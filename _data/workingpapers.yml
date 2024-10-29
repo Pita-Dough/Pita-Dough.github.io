@@ -4,7 +4,7 @@ main:
     authors: Peter Doe
     pdf: assets/files/AgreeableCore.pdf
     arXiv: https://arxiv.org/abs/2406.08700
-    notes: JMP (first version)
+    notes: JMP (second version)
     abstract: "I analyze rematching in two-sided matching markets. An initial match endows market participant with rights: every participant has the right to remain with her initial partner. I propose a new equilibrium solution requiring that an agent can only object to a match if her initial partner agrees to the objection. The main contribution of this paper is an algorithm that constructs such a match. I show my algorithm is immune to a variety of manipulations, and it has applications to numerous markets including the resident-to-hospital match, college admissions, school choice, and labor markets."
 
   - title: "Ranked-to-Match: The Effects of Early Matching in the NRMP"
