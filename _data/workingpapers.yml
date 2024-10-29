@@ -5,7 +5,7 @@ main:
     pdf: assets/files/AgreeableCore.pdf
     arXiv: https://arxiv.org/abs/2406.08700
     notes: JMP (second version)
-    abstract: "I analyze rematching in two-sided matching markets. An initial match endows market participant with rights: every participant has the right to remain with her initial partner. I propose a new equilibrium solution requiring that an agent can only object to a match if her initial partner agrees to the objection. The main contribution of this paper is an algorithm that constructs such a match. I show my algorithm is immune to a variety of manipulations, and it has applications to numerous markets including the resident-to-hospital match, college admissions, school choice, and labor markets."
+    abstract: "I analyze two-sided matching markets with pre-existing binding agreements between market participants. In this model, a pair of participants who are bound to each other by a pre-existing agreement must mutually agree to any action taken by the pair. I propose a new solution concept, the agreeable core, consisting of the matches which cannot be renegotiated without violating the binding agreements. The main contribution of this paper is an algorithm that constructs such a match by a novel combination of the Deferred Acceptance and Top Trading Cycles algorithms. I show that my algorithm is robust to various manipulations and it has applications to numerous markets including the resident-to-hospital match, college admissions, school choice, and labor markets."
 
   - title: "Ranked-to-Match: The Effects of Early Matching in the NRMP"
     authors: Peter Doe
