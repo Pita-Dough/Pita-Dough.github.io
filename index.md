@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hello, I am a Ph.D. student at Caltech. I am a microeconomic theorist specializing in algorithmic market design. I also have broad interests within behavioral economics, econometrics, and game theory.
+Hello, I am a Ph.D. student at Caltech. I am a microeconomic theorist specializing in algorithmic market design. I also have broad interests within behavioral economics, applied microeconomics, and game theory.
 
 <span style="color:red">I am on the job market now (2024-2025).</span>
 
