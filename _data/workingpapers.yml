@@ -1,5 +1,5 @@
 main:
-   - title: "A Unified Theory of School Choice"
+  - title: "A Unified Theory of School Choice"
     authors: Peter Doe
     pdf: assets/files/UnifiedSchoolChoice.pdf
     arXiv: https://arxiv.org/abs/2406.08700
