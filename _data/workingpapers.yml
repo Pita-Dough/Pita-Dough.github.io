@@ -6,7 +6,6 @@ main:
     arXiv: https://arxiv.org/abs/2406.08700
     abstract: "In school choice, policymakers consolidate a district's objectives for a school into a priority ordering over students. They then face a trade-off between respecting these priorities and assigning students to more-preferred schools. However, because priorities are the amalgamation of multiple policy goals, some may be more flexible than others. This paper introduces a model that distinguishes between two types of priority: a between-group priority that ranks groups of students and must be respected, and a within-group priority for efficiently allocating seats within each group. The solution I introduce, the unified core, integrates both types. I provide a two-stage algorithm, the DA-TTC, that implements the unified core and generalizes both the Deferred Acceptance and Top Trading Cycles algorithms. This approach provides a method for improving efficiency in school choice while honoring policymakers' objectives."
 
-
   - title: "Matching With Pre-Existing Binding Agreements: The Agreeable Core"
     authors: Peter Doe
     pdf: assets/files/AgreeableCore.pdf
