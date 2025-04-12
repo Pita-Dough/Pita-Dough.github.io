@@ -19,7 +19,11 @@
   -->
   <div class="col-sm-9" style="position: relative;padding-right: 0px;padding-left: 0px;">
       <div class="title"><a>{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
+      <!---<div class="author">{{ link.authors }}</div> --->
+      {% assign authorsArray = link.authors | split: ", " %}
+      {% if authorsArray.size > 1 %}
+        <div class="author">with {{ authorsArray[1] }}</div>
+      {% endif %}
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
