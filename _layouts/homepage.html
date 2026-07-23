@@ -85,15 +85,15 @@
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
-        <a rel="noopener">Ph.D. Candidate</a>
+        <a rel="noopener"><autocolor>{{ site.position }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.field %}
-        <a rel="noopener"><autocolor>Economics</autocolor></a>
+        <a rel="noopener"><autocolor>{{ site.field }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a rel="noopener"><autocolor>Caltech</autocolor></a>
+        <a rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
 

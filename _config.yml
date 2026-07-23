@@ -1,13 +1,13 @@
 # Basic Information 
 title: Peter Doe
-position: Ph.D. Candidate
+position: Assistant Professor
 field: Economics
-affiliation: Caltech
-email: pdoe@caltech.edu
+affiliation: Hope College
+email: hello@peterdoe.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: economics, Caltech, matching theory, status quo
+keywords: economics, Hope College, matching theory, market design, school choice
 description: "Peter Doe's Research Website"
 canonical: https://www.peterdoe.com
 
@@ -18,7 +18,7 @@ cv_link: https://www.peterdoe.com/assets/files/CV-Doe.pdf
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/self_picture_small.jpg
+avatar: ./assets/img/self_picture_hope.jpg
 favicon: ./assets/img/favicon.svg
 favicon_dark: ./assets/img/favicondark.svg
 
@@ -32,7 +32,7 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Sans Serif" # or "Sans Serif"
+font: "Sans Serif" # or "Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics

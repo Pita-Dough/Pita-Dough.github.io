@@ -1,11 +1,13 @@
-main:
+# Published papers. This list is currently empty.
+# It only renders if you add {% include_relative _includes/publications.md %} to index.md.
+# To add a paper, copy the template below under "main:" and fill it in.
+#
+# main:
+#   - title: "Paper Title"
+#     authors: Peter Doe
+#     conference: "Journal Name, Year."
+#     pdf: assets/files/YourPaper.pdf
+#     arXiv: https://arxiv.org/abs/XXXX.XXXXX
+#     abstract: "Abstract text here."
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+main: []
