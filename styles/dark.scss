@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+$body-bg: #15171c;
+$body-color: #e4e6eb;
+$link-color: #3eb7f0;
+$headings-color: #7fcdf2;
+$headings-font-weight: 500;
+$navbar-bg: #15171c;
+$navbar-fg: #7fcdf2;
+$sidebar-bg: #15171c;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+$font-size-root: 16px;
+
+/*-- scss:rules --*/
+:root {
+  --paper-accent: #3eb7f0;
+  --paper-btn-bg: transparent;
+  --paper-btn-hover: rgba(62, 183, 240, 0.12);
+  --paper-notes: #ff7b6b;
+  --paper-rule: #2c3038;
+  --course-row-alt: #1b1e24;
+  --course-exam-bg: #3a2a1c;
+  --course-exam-fg: #ffb27a;
+  --course-noclass-fg: #8a8f99;
+  --course-next-bg: #13303d;
+  --course-next-border: #3eb7f0;
+}
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.navbar { border-bottom: 1px solid #2c3038; }

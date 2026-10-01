@@ -1,0 +1,23 @@
+```{=html}
+<ul class="upcoming">
+<% for (const r of items) { if (r.type === 'noclass') continue; %>
+<li class="upcoming-item upcoming-<%= r.type %>" data-iso="<%= r.iso %>" hidden>
+<span class="upcoming-date"><%= r.day %></span>
+<span class="upcoming-topic"><%= r.topic %></span>
+<% if (r.notes) { %><span class="upcoming-notes"><%= r.notes %></span><% } %>
+<% if (r.materials) { %><span class="upcoming-mat"><% for (const m of r.materials) { %><a href="<%- m.href %>"><%= m.label %></a><% } %></span><% } %>
+</li>
+<% } %>
+</ul>
+<p class="upcoming-more"><a href="schedule.html">Full schedule →</a></p>
+<script>
+(function () {
+  const d = new Date(), p = n => String(n).padStart(2, '0');
+  const today = d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate());
+  const all = Array.from(document.querySelectorAll('.upcoming-item'));
+  let next = all.filter(li => li.dataset.iso >= today);
+  if (next.length === 0) next = all.slice(-1);
+  next.slice(0, 3).forEach(li => li.hidden = false);
+})();
+</script>
+```

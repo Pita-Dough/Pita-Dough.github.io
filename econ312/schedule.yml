@@ -1,0 +1,281 @@
+# ECON 312 schedule — the single source of truth for the Schedule, Materials and Home pages.
+# Generated from ECON312_TentativeSchedule.tex on 2026-10-01; edit here from now on.
+# Fields: week, iso (date as YYYY-MM-DD), day, topic, type (class | exam | noclass), notes,
+#         submit (true -> "Submit" button to Moodle), materials (list of {label, href}).
+# PDFs referenced under materials live in this folder's files/ directory.
+
+- week: 1
+  iso: '2026-08-31'
+  day: Mon Aug 31
+  topic: 'Ch. 2: Budget Constraint'
+  type: class
+  notes: First day of classes
+  materials:
+  - label: 'Lecture notes: Ch. 2'
+    href: files/ch2_budget_constraint.pdf
+  - label: 'Handout: Budget Constraints'
+    href: files/Ch2-Budget-Constraints.pdf
+- week: 1
+  iso: '2026-09-02'
+  day: Wed Sep 2
+  topic: 'Ch. 3: Preferences'
+  type: class
+  notes: PS 1 assigned
+  materials:
+  - label: 'Lecture notes: Ch. 3'
+    href: files/ch3_preferences.pdf
+- week: 1
+  iso: '2026-09-04'
+  day: Fri Sep 4
+  topic: 'Ch. 4: Utility'
+  type: class
+  notes: Syllabus Quiz due
+  materials:
+  - label: 'Lecture notes: Ch. 4'
+    href: files/ch4_utility.pdf
+- week: 2
+  iso: '2026-09-07'
+  day: Mon Sep 7
+  topic: 'Ch. 4: Utility'
+  type: class
+  notes: Labor Day (classes meet)
+- week: 2
+  iso: '2026-09-09'
+  day: Wed Sep 9
+  topic: 'Ch. 5: Choice'
+  type: class
+  notes: PS 1 due; PS 2 assigned
+  submit: true
+  materials:
+  - label: 'Lecture notes: Ch. 5'
+    href: files/ch5_choice.pdf
+  - label: 'Handout: Utility Maximization'
+    href: files/Ch5-utility_max.pdf
+- week: 2
+  iso: '2026-09-11'
+  day: Fri Sep 11
+  topic: 'Ch. 5: Choice (cont.)'
+  type: class
+- week: 3
+  iso: '2026-09-14'
+  day: Mon Sep 14
+  topic: 'Ch. 6: Demand'
+  type: class
+- week: 3
+  iso: '2026-09-16'
+  day: Wed Sep 16
+  topic: 'Ch. 7: Revealed Preference'
+  type: class
+  notes: PS 2 due
+  submit: true
+- week: 3
+  iso: '2026-09-18'
+  day: Fri Sep 18
+  topic: 'Ch. 7: Revealed Preference (cont.)'
+  type: class
+- week: 4
+  iso: '2026-09-21'
+  day: Mon Sep 21
+  topic: Exam 1 — Basic Consumers
+  type: exam
+  notes: Ch. 2–7; Sec. 1 presentations (half period)
+- week: 4
+  iso: '2026-09-23'
+  day: Wed Sep 23
+  topic: Critical Issues Symposium
+  type: noclass
+  notes: No Day Classes
+- week: 4
+  iso: '2026-09-25'
+  day: Fri Sep 25
+  topic: 'Ch. 8: Slutsky Equation'
+  type: class
+  notes: Begins Sec. 2; not on Quiz 1
+- week: 5
+  iso: '2026-09-28'
+  day: Mon Sep 28
+  topic: 'Ch. 8: Slutsky Equation (cont.)'
+  type: class
+- week: 5
+  iso: '2026-09-30'
+  day: Wed Sep 30
+  topic: 'Ch. 8: Slutsky Equation (cont.)'
+  type: class
+- week: 5
+  iso: '2026-10-02'
+  day: Fri Oct 2
+  topic: 'Ch. 9: Buying and Selling'
+  type: class
+  notes: PS 3 assigned; Fall recess begins 6:00PM
+- week: 6
+  iso: '2026-10-05'
+  day: Mon Oct 5
+  topic: Fall Recess
+  type: noclass
+  notes: No Class
+- week: 6
+  iso: '2026-10-07'
+  day: Wed Oct 7
+  topic: 'Ch. 14: Consumer''s Surplus'
+  type: class
+  notes: Wed. schedule in effect
+- week: 6
+  iso: '2026-10-09'
+  day: Fri Oct 9
+  topic: 'Ch. 15: Market Demand'
+  type: class
+- week: 7
+  iso: '2026-10-12'
+  day: Mon Oct 12
+  topic: 'Ch. 19: Technology'
+  type: class
+  notes: PS 3 due; Begins Sec. 3; not on Exam 2
+  submit: true
+- week: 7
+  iso: '2026-10-14'
+  day: Wed Oct 14
+  topic: Exam 2 — Comparative Statics
+  type: exam
+  notes: Ch. 8, 9, 14, 15
+- week: 7
+  iso: '2026-10-16'
+  day: Fri Oct 16
+  topic: 'Ch. 20: Profit Maximization'
+  type: class
+- week: 8
+  iso: '2026-10-19'
+  day: Mon Oct 19
+  topic: 'Ch. 21: Cost Minimization'
+  type: class
+- week: 8
+  iso: '2026-10-21'
+  day: Wed Oct 21
+  topic: 'Ch. 22: Cost Curves'
+  type: class
+- week: 8
+  iso: '2026-10-23'
+  day: Fri Oct 23
+  topic: 'Ch. 22: Cost Curves (cont.)'
+  type: class
+- week: 9
+  iso: '2026-10-26'
+  day: Mon Oct 26
+  topic: 'Ch. 23: Firm Supply'
+  type: class
+- week: 9
+  iso: '2026-10-28'
+  day: Wed Oct 28
+  topic: 'Ch. 24: Industry Supply'
+  type: class
+  notes: Sec. 3 presentations (half period)
+- week: 9
+  iso: '2026-10-30'
+  day: Fri Oct 30
+  topic: 'Ch. 16: Equilibrium'
+  type: class
+  notes: Begins Sec. 4; not on Exam 3
+- week: 10
+  iso: '2026-11-02'
+  day: Mon Nov 2
+  topic: Exam 3 — The Firm
+  type: exam
+  notes: Ch. 19–24
+- week: 10
+  iso: '2026-11-04'
+  day: Wed Nov 4
+  topic: 'Ch. 25: Monopoly'
+  type: class
+- week: 10
+  iso: '2026-11-06'
+  day: Fri Nov 6
+  topic: 'Ch. 25: Monopoly (cont.)'
+  type: class
+- week: 11
+  iso: '2026-11-09'
+  day: Mon Nov 9
+  topic: 'Ch. 28: Oligopoly'
+  type: class
+- week: 11
+  iso: '2026-11-11'
+  day: Wed Nov 11
+  topic: 'Ch. 28: Oligopoly (cont.)'
+  type: class
+- week: 11
+  iso: '2026-11-13'
+  day: Fri Nov 13
+  topic: Two-Sided Matching
+  type: class
+  notes: Sec. 4 presentations (half period)
+- week: 12
+  iso: '2026-11-16'
+  day: Mon Nov 16
+  topic: 'Ch. 35: Externalities'
+  type: class
+  notes: Begins Sec. 5; not on Exam 4
+- week: 12
+  iso: '2026-11-18'
+  day: Wed Nov 18
+  topic: Exam 4 — On the Origin of Prices
+  type: exam
+  notes: Ch. 16, 25, 28 + matching
+- week: 12
+  iso: '2026-11-20'
+  day: Fri Nov 20
+  topic: 'Ch. 35: Externalities (cont.)'
+  type: class
+  notes: Virtual class
+- week: 13
+  iso: '2026-11-23'
+  day: Mon Nov 23
+  topic: 'Ch. 35: Externalities (cont.)'
+  type: class
+  notes: Virtual class
+- week: 13
+  iso: '2026-11-25'
+  day: Wed Nov 25
+  topic: Thanksgiving Recess
+  type: noclass
+  notes: No Class
+- week: 13
+  iso: '2026-11-27'
+  day: Fri Nov 27
+  topic: Thanksgiving Recess
+  type: noclass
+  notes: No Class
+- week: 14
+  iso: '2026-11-30'
+  day: Mon Nov 30
+  topic: 'Ch. 36: Public Goods'
+  type: class
+- week: 14
+  iso: '2026-12-02'
+  day: Wed Dec 2
+  topic: 'Ch. 32: Exchange'
+  type: class
+- week: 14
+  iso: '2026-12-04'
+  day: Fri Dec 4
+  topic: 'Ch. 32: Exchange (cont.)'
+  type: class
+- week: 15
+  iso: '2026-12-07'
+  day: Mon Dec 7
+  topic: 'Ch. 32: Exchange (cont.)'
+  type: class
+- week: 15
+  iso: '2026-12-09'
+  day: Wed Dec 9
+  topic: 'Ch. 34: Welfare'
+  type: class
+  notes: Sec. 5 presentations (half period)
+- week: 15
+  iso: '2026-12-11'
+  day: Fri Dec 11
+  topic: Catch-up — Last Day of Classes
+  type: class
+- week: Finals
+  iso: '2026-12-16'
+  day: Wed Dec 16
+  topic: Final Exam — What Prices Do
+  type: exam
+  notes: 12:30–2:30 PM; Ch. 35, 36, 32, 34 + cumulative

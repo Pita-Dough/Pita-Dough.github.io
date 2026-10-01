@@ -1,0 +1,40 @@
+---
+title: "ECON 212: Principles of Microeconomics"
+subtitle: "Fall 2026"
+listing:
+  id: upcoming
+  contents: schedule.yml
+  template: ../_templates/upcoming.ejs
+  sort: false
+  sort-ui: false
+  filter-ui: false
+  page-size: 500
+  template-params:
+    moodle: "https://courses202608.hope.edu/course/view.php?id=1874"
+---
+
+::: {.moodle-banner}
+**Everything you submit goes through Moodle.** Notes, handouts and the schedule live here.
+
+[Open Moodle ↗](https://courses202608.hope.edu/course/view.php?id=1874){.submit-btn}
+:::
+
+## Coming up
+
+::: {#upcoming}
+:::
+
+## Course information
+
+```{=html}
+<table class="course-info" data-quarto-disable-processing="true">
+<tr><td>Instructor</td><td>Prof. Peter Doe</td></tr>
+<tr><td>Email</td><td><a href="mailto:doe42@hope.edu">doe42@hope.edu</a></td></tr>
+<tr><td>Office</td><td>Van Zoeren Hall 165A</td></tr>
+<tr><td>Office hours</td><td>By appointment: <a href="https://calendar.app.google/FCpRk1FR3hVpexGa9">book a time</a></td></tr>
+<tr><td>Meetings</td><td>Sec. 01: MWF 8:30–9:20 AM<br>Sec. 02: MWF 9:30–10:20 AM</td></tr>
+<tr><td>Room</td><td>Science Center 3130</td></tr>
+<tr><td>Textbook</td><td>Mankiw, <em>Principles of Microeconomics</em>, 11th ed. (via MindTap)</td></tr>
+<tr><td>Syllabus</td><td><a href="files/ECON212_Syllabus.pdf">PDF</a></td></tr>
+</table>
+```

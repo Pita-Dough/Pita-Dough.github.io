@@ -1,0 +1,100 @@
+/* Course pages: schedule table, materials table, "coming up" list, Moodle banner. */
+.sched-wrap { overflow-x: auto; }
+table.sched {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+table.sched th {
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid var(--course-next-border);
+  padding: 0.4rem 0.6rem;
+}
+table.sched td {
+  padding: 0.4rem 0.6rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--paper-rule);
+}
+.sched-date { white-space: nowrap; width: 7.5rem; }
+.sched-week td {
+  font-weight: 600;
+  color: var(--course-next-border);
+  padding-top: 1rem !important;
+  border-bottom: 1px solid var(--course-next-border) !important;
+}
+.sched-mat a { display: block; }
+.sched-exam td { background-color: var(--course-exam-bg); }
+.sched-exam .sched-topic { font-weight: 700; color: var(--course-exam-fg); }
+.sched-noclass td { color: var(--course-noclass-fg); font-style: italic; }
+.sched-row.is-past td { opacity: 0.55; }
+.sched-row.is-next td { background-color: var(--course-next-bg); }
+.sched-row.is-next td:first-child { box-shadow: inset 4px 0 0 var(--course-next-border); }
+.sched-notes span { display: block; }
+
+.submit-chip, .submit-btn {
+  display: inline-block;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  padding: 0.1rem 0.55rem;
+  margin-top: 0.2rem;
+  border: 1px solid var(--paper-accent);
+  border-radius: 0.3rem;
+  color: var(--paper-accent);
+  background-color: var(--paper-btn-bg);
+  white-space: nowrap;
+}
+.submit-btn { font-size: 0.9rem; padding: 0.3rem 0.9rem; margin: 0.3rem 0 0; }
+.submit-chip:hover, .submit-btn:hover { background-color: var(--paper-btn-hover); text-decoration: none; }
+
+.moodle-banner {
+  border-left: 4px solid var(--course-next-border);
+  background-color: var(--course-next-bg);
+  padding: 0.8rem 1rem;
+  border-radius: 0.3rem;
+  margin: 0.5rem 0 1.5rem;
+}
+.moodle-banner p { margin: 0; }
+
+ul.upcoming { list-style: none; padding-left: 0; }
+.upcoming-item {
+  padding: 0.55rem 0.8rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--paper-rule);
+  border-radius: 0.35rem;
+  background-color: var(--course-row-alt);
+}
+.upcoming-item > span { display: block; }
+.upcoming-date { font-size: 0.8rem; font-weight: 600; color: var(--course-next-border); text-transform: uppercase; letter-spacing: 0.03em; }
+.upcoming-topic { font-weight: 600; }
+.upcoming-exam .upcoming-topic { color: var(--course-exam-fg); }
+.upcoming-notes { font-size: 0.88rem; opacity: 0.85; }
+.upcoming-mat a { margin-right: 0.8rem; font-size: 0.88rem; }
+.upcoming-more { font-size: 0.9rem; }
+
+table.course-info td:first-child { font-weight: 600; white-space: nowrap; padding-right: 1.5rem; }
+table.course-info td { padding: 0.25rem 0; border: none; vertical-align: top; }
+
+table.course-info { width: auto !important; border-top: none !important; border-bottom: none !important; }
+#listing-upcoming { margin-bottom: 0; }
+
+/* Phones: each schedule row becomes a compact card. */
+@media (max-width: 640px) {
+  table.sched thead { display: none; }
+  table.sched, table.sched tbody, table.sched tr, table.sched td { display: block; width: 100%; }
+  table.sched tr.sched-row { padding: 0.45rem 0.5rem; border-bottom: 1px solid var(--paper-rule); }
+  table.sched td { border: none; padding: 0.05rem 0; }
+  .sched-date { font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--course-next-border); }
+  .sched-topic { font-weight: 600; }
+  .sched-mat a { display: inline-block; margin-right: 0.8rem; }
+  .sched-notes { font-size: 0.85rem; }
+  .sched-week td { padding: 0.9rem 0.5rem 0.2rem !important; }
+  .sched-row.is-next td:first-child { box-shadow: none; }
+  .sched-row.is-next { box-shadow: inset 4px 0 0 var(--course-next-border); }
+  .sched-row.is-next td, .sched-exam td { background: none !important; }
+  .sched-exam { background-color: var(--course-exam-bg); }
+  .sched-row.is-next { background-color: var(--course-next-bg); }
+}
+.quarto-listing-container-custom .listing-pagination,
+.quarto-listing-container-custom .listing-no-matching { display: none !important; }

@@ -1,0 +1,18 @@
+# Working papers, rendered in this order on the home page.
+# To add a paper: copy a block, put the PDF in files/, and point `pdf` at it.
+# Optional fields: coauthors, arxiv, pdf, mathematica, code, notes, abstract.
+
+- title: "A Unified Theory of School Choice"
+  arxiv: https://arxiv.org/abs/2504.09357
+  pdf: files/UnifiedSchoolChoice.pdf
+  abstract: "In school choice, policymakers consolidate a district's objectives for a school into a priority ordering over students. They then face a trade-off between respecting these priorities and assigning students to more-preferred schools. However, because priorities are the amalgamation of multiple policy goals, some may be more flexible than others. This paper introduces a model that distinguishes between two types of priority: a between-group priority that ranks groups of students and must be respected, and a within-group priority for efficiently allocating seats within each group. The solution I introduce, the unified core, integrates both types. I provide a two-stage algorithm, the DA-TTC, that implements the unified core and generalizes both the Deferred Acceptance and Top Trading Cycles algorithms. This approach provides a method for improving efficiency in school choice while honoring policymakers' objectives."
+
+- title: "Matching With Pre-Existing Binding Agreements: The Agreeable Core"
+  arxiv: https://arxiv.org/abs/2406.08700
+  pdf: files/AgreeableCore.pdf
+  abstract: "Typically, matching market models ignore prior commitments. Yet many job seekers, for example, are already employed. I analyze two-sided matching markets with pre-existing binding agreements between market participants. In this model, a pair of participants bound to each other by a pre-existing agreement must agree to any action they take. To analyze their behavior, I propose a new solution concept, the agreeable core, consisting of the matches which cannot be renegotiated without violating the binding agreements. My main contribution is an algorithm that constructs such a match by a novel combination of the Deferred Acceptance and Top Trading Cycles algorithms. The algorithm is robust to various manipulations and has applications to numerous markets including the resident-to-hospital match, college admissions, school choice, and labor markets."
+
+- title: "Ranked-to-Match: The Effects of Early Matching in the NRMP"
+  pdf: files/Rank2Match.pdf
+  mathematica: files/SuppMaterial-Rank2Match.nb
+  abstract: "I study a behavioral model of early matching within the context of the National Resident Matching Program. In my model, two hospitals choose to give early offers to doctors prior to a stable match. Some doctors have a behavioral preference to early match while others do not. I show that the less-desirable program benefits from the option to make early offers. My results provide a theoretical foundation for behavior widely documented within the medical ethics and graduate medical education literature and confirm beliefs commonly held by residency program directors."

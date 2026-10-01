@@ -1,0 +1,73 @@
+project:
+  type: website
+  # Only .qmd files become pages; README.md and CLAUDE.md stay out of the build.
+  render:
+    - "**/*.qmd"
+  # Files that pages link to but Quarto cannot see (they are referenced only from YAML data files).
+  resources:
+    - files/
+    - econ212/files/
+    - econ312/files/
+    - CNAME
+
+website:
+  title: "Peter Doe"
+  description: "Peter Doe's research and teaching website"
+  site-url: https://www.peterdoe.com
+  favicon: images/favicon.svg
+  open-graph: true
+  search: false
+  page-navigation: false
+  navbar:
+    left:
+      - text: Research
+        href: index.qmd
+      - text: Teaching
+        menu:
+          - text: "ECON 212: Principles of Microeconomics"
+            href: econ212/index.qmd
+          - text: "ECON 312: Intermediate Microeconomics"
+            href: econ312/index.qmd
+  sidebar:
+    - id: econ212
+      title: "ECON 212"
+      style: docked
+      contents:
+        - text: Home
+          href: econ212/index.qmd
+        - text: Schedule
+          href: econ212/schedule.qmd
+        - text: Materials
+          href: econ212/materials.qmd
+        - text: Syllabus (PDF)
+          href: econ212/files/ECON212_Syllabus.pdf
+        - text: "Moodle (submissions) ↗"
+          href: https://courses202608.hope.edu/course/view.php?id=1874
+    - id: econ312
+      title: "ECON 312"
+      style: docked
+      contents:
+        - text: Home
+          href: econ312/index.qmd
+        - text: Schedule
+          href: econ312/schedule.qmd
+        - text: Materials
+          href: econ312/materials.qmd
+        - text: Syllabus (PDF)
+          href: econ312/files/ECON312_Syllabus.pdf
+        - text: "Moodle (submissions) ↗"
+          href: https://courses202608.hope.edu/   # TODO: replace with the ECON 312 course URL
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/light.scss]   # listed first = the default on first visit
+      dark: [cosmo, styles/dark.scss]     # available from the navbar toggle
+    css:
+      - styles/papers.css
+      - styles/course.css
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+
+# No google-analytics key: the site sets no tracking cookies.

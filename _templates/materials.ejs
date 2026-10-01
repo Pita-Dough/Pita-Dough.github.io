@@ -1,0 +1,14 @@
+```{=html}
+<table class="sched materials">
+<thead><tr><th class="sched-date">Date</th><th>Topic</th><th>Files</th></tr></thead>
+<tbody>
+<% for (const r of items) { if (!r.materials) continue; %>
+<tr class="sched-row" data-iso="<%= r.iso %>">
+<td class="sched-date"><%= r.day %></td>
+<td class="sched-topic"><%= r.topic %></td>
+<td class="sched-mat"><% for (const m of r.materials) { %><a href="<%- m.href %>"><%= m.label %></a><% } %></td>
+</tr>
+<% } %>
+</tbody>
+</table>
+```

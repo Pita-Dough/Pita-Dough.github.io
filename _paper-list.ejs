@@ -1,0 +1,28 @@
+```{=html}
+<ol class="paper-list">
+<% for (let i = 0; i < items.length; i++) { const p = items[i]; const id = "abstract-" + (i + 1); %>
+  <li class="paper">
+    <div class="paper-title"><%= p.title %></div>
+    <% if (p.coauthors) { %><div class="paper-coauthors">with <%= p.coauthors %></div><% } %>
+    <div class="paper-links">
+      <% if (p.abstract) { %>
+      <button class="paper-btn collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#<%= id %>" aria-expanded="false" aria-controls="<%= id %>">
+        Abstract <i class="bi bi-chevron-down"></i>
+      </button>
+      <% } %>
+      <% if (p.pdf) { %><a class="paper-btn" href="<%- p.pdf %>">PDF</a><% } %>
+      <% if (p.arxiv) { %><a class="paper-btn" href="<%- p.arxiv %>">arXiv</a><% } %>
+      <% if (p.mathematica) { %><a class="paper-btn" href="<%- p.mathematica %>">Mathematica Notebook</a><% } %>
+      <% if (p.code) { %><a class="paper-btn" href="<%- p.code %>">Code</a><% } %>
+      <% if (p.notes) { %><span class="paper-notes"><%= p.notes %></span><% } %>
+    </div>
+    <% if (p.abstract) { %>
+    <div class="collapse" id="<%= id %>">
+      <p class="paper-abstract"><%= p.abstract %></p>
+    </div>
+    <% } %>
+  </li>
+<% } %>
+</ol>
+```

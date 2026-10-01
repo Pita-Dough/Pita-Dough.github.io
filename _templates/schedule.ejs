@@ -1,0 +1,30 @@
+```{=html}
+<div class="sched-wrap">
+<table class="sched">
+<thead><tr><th class="sched-date">Date</th><th>Topic</th><th>Materials</th><th>Notes &amp; due</th></tr></thead>
+<tbody>
+<% let lastWeek = null; for (const r of items) { if (r.week !== lastWeek) { lastWeek = r.week; %>
+<tr class="sched-week"><td colspan="4"><%= (typeof r.week === 'number') ? ('Week ' + r.week) : r.week %></td></tr>
+<% } %>
+<tr class="sched-row sched-<%= r.type %>" data-iso="<%= r.iso %>">
+<td class="sched-date"><%= r.day %></td>
+<td class="sched-topic"><%= r.topic %></td>
+<td class="sched-mat"><% if (r.materials) { for (const m of r.materials) { %><a href="<%- m.href %>"><%= m.label %></a><% } } %></td>
+<td class="sched-notes"><% if (r.notes) { %><span><%= r.notes %></span><% } %><% if (r.submit) { %><a class="submit-chip" href="<%- templateParams.moodle %>">Submit on Moodle ↗</a><% } %></td>
+</tr>
+<% } %>
+</tbody>
+</table>
+</div>
+<script>
+(function () {
+  const d = new Date(), p = n => String(n).padStart(2, '0');
+  const today = d.getFullYear() + '-' + p(d.getMonth() + 1) + '-' + p(d.getDate());
+  let marked = false;
+  document.querySelectorAll('.sched-row').forEach(function (row) {
+    if (row.dataset.iso < today) { row.classList.add('is-past'); }
+    else if (!marked && !row.classList.contains('sched-noclass')) { row.classList.add('is-next'); marked = true; }
+  });
+})();
+</script>
+```

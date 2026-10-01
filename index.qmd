@@ -1,0 +1,38 @@
+---
+title: "Peter Doe"
+subtitle: "Assistant Professor of Economics<br>Hope College"
+image: images/self_picture_hope.jpg
+image-alt: "Portrait of Peter Doe"
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 11em
+  links:
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=j0WhL6kAAAAJ&hl=en&oi=sra
+    - icon: file-earmark-person
+      text: CV
+      href: files/CV-Doe.pdf
+    - icon: envelope
+      text: Email
+      href: mailto:hello@peterdoe.com
+listing:
+  id: papers
+  contents: papers.yml
+  template: _paper-list.ejs
+  sort: false
+  sort-ui: false
+  filter-ui: false
+---
+
+## About Me
+
+Hello, I am an Assistant Professor of Economics at Hope College.
+
+I am a microeconomic theorist specializing in algorithmic market design.
+
+## Working Papers
+
+::: {#papers}
+:::

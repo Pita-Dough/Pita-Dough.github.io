@@ -1,0 +1,293 @@
+# ECON 212 schedule — the single source of truth for the Schedule, Materials and Home pages.
+# Generated from ECON212_TentativeSchedule.tex on 2026-10-01; edit here from now on.
+# Fields: week, iso (date as YYYY-MM-DD), day, topic, type (class | exam | noclass), notes,
+#         submit (true -> "Submit" button to Moodle), materials (list of {label, href}).
+# PDFs referenced under materials live in this folder's files/ directory.
+
+- week: 1
+  iso: '2026-08-31'
+  day: Mon Aug 31
+  topic: First Day; Course Overview
+  type: class
+- week: 1
+  iso: '2026-09-02'
+  day: Wed Sep 2
+  topic: 'Ch. 5: Elasticity'
+  type: class
+  materials:
+  - label: 'Lecture notes: Ch. 5'
+    href: files/ch5_elasticity.pdf
+  - label: 'Handout: Elasticity'
+    href: files/Ch5-Elasticity-Handout.pdf
+- week: 1
+  iso: '2026-09-04'
+  day: Fri Sep 4
+  topic: 'Ch. 5: Elasticity'
+  type: class
+  notes: Syllabus Quiz due
+- week: 2
+  iso: '2026-09-07'
+  day: Mon Sep 7
+  topic: 'Ch. 5: Elasticity'
+  type: class
+- week: 2
+  iso: '2026-09-09'
+  day: Wed Sep 9
+  topic: 'Ch. 5: Elasticity'
+  type: class
+- week: 2
+  iso: '2026-09-11'
+  day: Fri Sep 11
+  topic: 'Ch. 6: Government Policies'
+  type: class
+  materials:
+  - label: 'Lecture notes: Ch. 6'
+    href: files/ch6_government_intervention.pdf
+  - label: 'Handout: Price Controls'
+    href: files/Ch6-Price-Controls-Handout.pdf
+- week: 3
+  iso: '2026-09-14'
+  day: Mon Sep 14
+  topic: 'Ch. 6: Government Policies'
+  type: class
+- week: 3
+  iso: '2026-09-16'
+  day: Wed Sep 16
+  topic: 'Ch. 7: Market Efficiency'
+  type: class
+  notes: 'HW: Ch. 5, 6 due'
+  submit: true
+  materials:
+  - label: 'Lecture notes: Ch. 7'
+    href: files/ch7_market_efficiency.pdf
+  - label: 'Handout: Surplus'
+    href: files/Ch7-Surplus-Handout.pdf
+- week: 3
+  iso: '2026-09-18'
+  day: Fri Sep 18
+  topic: 'Ch. 7: Market Efficiency / Presentations (Sec. 1)'
+  type: class
+  notes: Sec. 1 presentations (half period)
+- week: 4
+  iso: '2026-09-21'
+  day: Mon Sep 21
+  topic: 'Ch. 8: Costs of Taxation'
+  type: class
+  notes: Begins Sec. 2; not on Exam 1
+- week: 4
+  iso: '2026-09-23'
+  day: Wed Sep 23
+  topic: Critical Issues Symposium
+  type: noclass
+  notes: No Day Classes
+- week: 4
+  iso: '2026-09-25'
+  day: Fri Sep 25
+  topic: Exam 1 — How Markets Work
+  type: exam
+  notes: 'Ch. 5, 6, 7; HW: Ch. 7 due'
+  submit: true
+- week: 5
+  iso: '2026-09-28'
+  day: Mon Sep 28
+  topic: 'Ch. 9: International Trade'
+  type: class
+- week: 5
+  iso: '2026-09-30'
+  day: Wed Sep 30
+  topic: Ch. 8 (cont.) / Ch. 9 (cont.)
+  type: class
+- week: 5
+  iso: '2026-10-02'
+  day: Fri Oct 2
+  topic: 'Ch. 10: Externalities'
+  type: class
+- week: 6
+  iso: '2026-10-05'
+  day: Mon Oct 5
+  topic: Fall Recess
+  type: noclass
+  notes: No Class
+- week: 6
+  iso: '2026-10-07'
+  day: Wed Oct 7
+  topic: 'Ch. 10: Externalities'
+  type: class
+  notes: 'HW: Ch. 8, 9 due'
+  submit: true
+- week: 6
+  iso: '2026-10-09'
+  day: Fri Oct 9
+  topic: 'Ch. 10: Externalities'
+  type: class
+- week: 7
+  iso: '2026-10-12'
+  day: Mon Oct 12
+  topic: 'Ch. 11: Public Goods'
+  type: class
+- week: 7
+  iso: '2026-10-14'
+  day: Wed Oct 14
+  topic: 'Ch. 11: Public Goods'
+  type: class
+  notes: 'HW: Ch. 10 due'
+  submit: true
+- week: 7
+  iso: '2026-10-16'
+  day: Fri Oct 16
+  topic: Special Lecture — The Market for Lemons
+  type: class
+  notes: No HW
+- week: 8
+  iso: '2026-10-19'
+  day: Mon Oct 19
+  topic: 'Presentations (Sec. 2) / Ch. 14: Costs of Production'
+  type: class
+  notes: Begins Sec. 3; not on Exam 2; Sec. 2 presentations (half period)
+- week: 8
+  iso: '2026-10-21'
+  day: Wed Oct 21
+  topic: 'Ch. 14: Costs of Production'
+  type: class
+  notes: 'Not on Exam 2; HW: Ch. 11 due'
+  submit: true
+- week: 8
+  iso: '2026-10-23'
+  day: Fri Oct 23
+  topic: Exam 2 — When Markets Fail
+  type: exam
+  notes: Ch. 8–11, special lecture
+- week: 9
+  iso: '2026-10-26'
+  day: Mon Oct 26
+  topic: 'Ch. 15: Competitive Markets'
+  type: class
+- week: 9
+  iso: '2026-10-28'
+  day: Wed Oct 28
+  topic: 'Ch. 15: Competitive Markets'
+  type: class
+  notes: 'HW: Ch. 14 due'
+  submit: true
+- week: 9
+  iso: '2026-10-30'
+  day: Fri Oct 30
+  topic: 'Ch. 15: Competitive Markets'
+  type: class
+- week: 10
+  iso: '2026-11-02'
+  day: Mon Nov 2
+  topic: 'Ch. 16: Monopoly'
+  type: class
+- week: 10
+  iso: '2026-11-04'
+  day: Wed Nov 4
+  topic: 'Ch. 16: Monopoly'
+  type: class
+  notes: 'HW: Ch. 15 due'
+  submit: true
+- week: 10
+  iso: '2026-11-06'
+  day: Fri Nov 6
+  topic: 'Ch. 16: Monopoly'
+  type: class
+- week: 11
+  iso: '2026-11-09'
+  day: Mon Nov 9
+  topic: 'Ch. 16: Monopoly'
+  type: class
+- week: 11
+  iso: '2026-11-11'
+  day: Wed Nov 11
+  topic: 'Ch. 17: Monopolistic Competition'
+  type: class
+  notes: Begins Sec. 4; not on Exam 3
+- week: 11
+  iso: '2026-11-13'
+  day: Fri Nov 13
+  topic: 'Presentations (Sec. 3) / Ch. 17: Monopolistic Competition'
+  type: class
+  notes: Not on Exam 3; Sec. 3 presentations (half period)
+- week: 12
+  iso: '2026-11-16'
+  day: Mon Nov 16
+  topic: 'Ch. 17: Monopolistic Competition'
+  type: class
+  notes: Not on Exam 3
+- week: 12
+  iso: '2026-11-18'
+  day: Wed Nov 18
+  topic: Exam 3 — Firm Behavior
+  type: exam
+  notes: Ch. 14, 15, 16
+- week: 12
+  iso: '2026-11-20'
+  day: Fri Nov 20
+  topic: 'Ch. 18: Oligopoly'
+  type: class
+  notes: Virtual class
+- week: 13
+  iso: '2026-11-23'
+  day: Mon Nov 23
+  topic: 'Ch. 18: Oligopoly'
+  type: class
+  notes: Virtual class
+- week: 13
+  iso: '2026-11-25'
+  day: Wed Nov 25
+  topic: Thanksgiving Recess
+  type: noclass
+  notes: No Class
+- week: 13
+  iso: '2026-11-27'
+  day: Fri Nov 27
+  topic: Thanksgiving Recess
+  type: noclass
+  notes: No Class
+- week: 14
+  iso: '2026-11-30'
+  day: Mon Nov 30
+  topic: 'Ch. 18: Oligopoly'
+  type: class
+  notes: 'HW: Ch. 16, 17 due'
+  submit: true
+- week: 14
+  iso: '2026-12-02'
+  day: Wed Dec 2
+  topic: 'Ch. 19: Factors of Production'
+  type: class
+- week: 14
+  iso: '2026-12-04'
+  day: Fri Dec 4
+  topic: 'Ch. 19: Factors of Production'
+  type: class
+- week: 15
+  iso: '2026-12-07'
+  day: Mon Dec 7
+  topic: 'Ch. 20: Labor Markets'
+  type: class
+- week: 15
+  iso: '2026-12-09'
+  day: Wed Dec 9
+  topic: 'Ch. 20: Labor Markets'
+  type: class
+  notes: 'HW: Ch. 18, 19 due'
+  submit: true
+- week: 15
+  iso: '2026-12-11'
+  day: Fri Dec 11
+  topic: Presentations (Sec. 4) — Last Day of Classes
+  type: class
+  notes: Sec. 4 presentations (full period); no HW for Ch. 20
+- week: Finals
+  iso: '2026-12-17'
+  day: Thu Dec 17
+  topic: Final Exam (Sec. 01)
+  type: exam
+  notes: 9:00–11:00 AM; Ch. 17–20 + cumulative
+- week: Finals
+  iso: '2026-12-17'
+  day: Thu Dec 17
+  topic: Final Exam (Sec. 02)
+  type: exam
+  notes: 3:00–5:00 PM; Ch. 17–20 + cumulative

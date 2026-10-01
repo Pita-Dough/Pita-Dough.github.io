@@ -1,0 +1,67 @@
+/* Working-paper list (see _paper-list.ejs). Colors come from the theme files. */
+.paper-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+.paper {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--paper-rule);
+}
+.paper:last-child { border-bottom: none; }
+.paper-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+.paper-coauthors {
+  font-style: italic;
+  opacity: 0.85;
+  margin-top: 0.15rem;
+}
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+.paper-btn {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--paper-accent);
+  border-radius: 0.3rem;
+  color: var(--paper-accent);
+  background-color: var(--paper-btn-bg);
+  text-decoration: none;
+  cursor: pointer;
+}
+.paper-btn:hover,
+.paper-btn:focus-visible {
+  background-color: var(--paper-btn-hover);
+  color: var(--paper-accent);
+}
+.paper-btn .bi { font-size: 0.7rem; transition: transform 0.2s; display: inline-block; }
+.paper-btn:not(.collapsed) .bi { transform: rotate(180deg); }
+.paper-notes {
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--paper-notes);
+  margin-left: 0.2rem;
+}
+.paper-abstract {
+  text-align: justify;
+  hyphens: auto;
+  font-size: 0.92rem;
+  margin: 0.7rem 0 0;
+}
+
+/* Portrait: rounded square with a thin frame, as on the old site. */
+.quarto-about-trestles .about-image {
+  border-radius: 10% !important;
+  border: 1px solid #ddd;
+  padding: 3px;
+  background-color: #fff;
+}

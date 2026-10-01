@@ -1,0 +1,19 @@
+---
+title: "ECON 312 Schedule"
+subtitle: "Fall 2026 · tentative and subject to change"
+listing:
+  id: schedule
+  contents: schedule.yml
+  template: ../_templates/schedule.ejs
+  sort: false
+  sort-ui: false
+  filter-ui: false
+  page-size: 500
+  template-params:
+    moodle: "https://courses202608.hope.edu/"
+---
+
+The highlighted row is the next class meeting; past meetings are dimmed.
+
+::: {#schedule}
+:::
