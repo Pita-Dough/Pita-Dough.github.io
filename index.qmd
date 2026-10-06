@@ -17,13 +17,6 @@ about:
     - icon: envelope
       text: Email
       href: mailto:hello@peterdoe.com
-listing:
-  id: papers
-  contents: papers.yml
-  template: _paper-list.ejs
-  sort: false
-  sort-ui: false
-  filter-ui: false
 ---
 
 ## About Me
@@ -32,7 +25,5 @@ Hello, I am an Assistant Professor of Economics at Hope College.
 
 I am a microeconomic theorist specializing in algorithmic market design.
 
-## Working Papers
-
-::: {#papers}
-:::
+My [working papers](research.qmd) are on the Research page.
+This semester I teach [ECON 212: Principles of Microeconomics](econ212/index.qmd) and [ECON 312: Intermediate Microeconomics](econ312/index.qmd).

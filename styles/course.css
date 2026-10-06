@@ -98,3 +98,111 @@ table.course-info { width: auto !important; border-top: none !important; border-
 }
 .quarto-listing-container-custom .listing-pagination,
 .quarto-listing-container-custom .listing-no-matching { display: none !important; }
+
+/* In-page jump links at the top of each course page. */
+.course-jump p { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0 0 1.5rem; }
+.course-jump a {
+  display: inline-block;
+  font-size: 0.85rem;
+  padding: 0.15rem 0.7rem;
+  border: 1px solid var(--course-next-border);
+  border-radius: 1rem;
+}
+.course-jump a:hover { background-color: var(--course-next-bg); text-decoration: none; }
+
+/* Keep brand + three links + dark-mode toggle on one row on a phone. */
+.navbar .nav-link .menu-text { white-space: nowrap; }
+@media (max-width: 575px) {
+  .navbar .navbar-container { flex-wrap: nowrap; }
+  .navbar .navbar-brand-container { flex: 0 0 auto; max-width: none !important; margin: 0 0.4rem 0 0 !important; }
+  .navbar .navbar-brand { margin-right: 0; }
+  .navbar .navbar-title { font-size: 1.05rem; white-space: nowrap; }
+  .navbar .navbar-nav { flex-direction: row; flex-wrap: nowrap; margin-right: auto; overflow: visible; }
+  .navbar .navbar-nav .nav-link { padding-left: 0.35rem; padding-right: 0.35rem; font-size: 0.9rem; }
+  .navbar .navbar-brand-container { order: 1; }
+  .navbar .navbar-nav { order: 2; }
+  /* No room for the dark-mode toggle on a phone; light mode is the default anyway. */
+  .navbar .quarto-navbar-tools { display: none; }
+}
+
+/* ---------- Course pages: figure | content | figure ---------- */
+/* The page carries its own <h1> inside .course-main, so hide Quarto's header block. */
+#title-block-header { display: none; }
+.course-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "l r" "main main";
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.25rem;
+  max-width: 1480px;
+  margin: 1.25rem auto 3rem;
+  padding: 0 1rem;
+}
+.course-main { grid-area: main; min-width: 0; }
+.course-fig-l { grid-area: l; }
+.course-fig-r { grid-area: r; }
+.course-fig svg.fig { display: block; width: 100%; height: auto; max-height: 230px; margin: 0 auto; }
+.course-title { margin-top: 0; font-size: 2rem; }
+.course-subtitle { font-size: 1.15rem; opacity: 0.8; margin-top: -0.4rem; }
+.course-main > h2 { margin-top: 2rem; }
+
+/* Wide screens: figure on each side of the content, riding along as you scroll. */
+@media (min-width: 1250px) {
+  .course-shell {
+    grid-template-areas: "l main r";
+    grid-template-columns: minmax(230px, 310px) minmax(0, 720px) minmax(230px, 310px);
+    justify-content: center;
+    gap: 1.5rem 2rem;
+  }
+  .course-fig { position: sticky; top: 4.75rem; align-self: start; }
+  .course-fig svg.fig { max-height: none; }
+}
+/* Phones: the title and navbar already say which course this is; no room for the figures. */
+@media (max-width: 560px) {
+  .course-shell { grid-template-areas: "main"; grid-template-columns: minmax(0, 1fr); }
+  .course-fig { display: none; }
+}
+
+/* ---------- Diagram vocabulary (inline SVG in _figures/) ---------- */
+svg.fig { color: inherit; font-family: inherit; overflow: visible; }
+svg.fig text { fill: currentColor; }
+.f-cap  { font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.6; }
+.f-t    { font-size: 12px; }
+.f-s    { font-size: 10.5px; opacity: 0.7; }
+.f-b    { font-weight: 600; }
+.f-eq   { font-size: 15px; }
+.f-sub  { font-size: 9.5px; }
+.f-halo { paint-order: stroke; stroke: var(--bs-body-bg, #fffaf2); stroke-width: 3px; stroke-linejoin: round; }
+.f-axis   { fill: none; stroke: currentColor; stroke-opacity: 0.55; stroke-width: 1; }
+.f-guide  { fill: none; stroke: currentColor; stroke-opacity: 0.4; stroke-width: 1; stroke-dasharray: 3 3; }
+.f-leader { fill: none; stroke: currentColor; stroke-opacity: 0.45; stroke-width: 1; }
+.f-fraclin { stroke: currentColor; stroke-width: 1.2; }
+.f-box    { fill: none; stroke: currentColor; stroke-opacity: 0.55; stroke-width: 1; }
+.f-line   { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.f-thin   { stroke: currentColor; stroke-opacity: 0.6; stroke-width: 1.4; }
+.f-dash   { stroke-dasharray: 5 3; }
+.c1 { stroke: var(--fig-1); }
+.c2 { stroke: var(--fig-2); }
+.f-core { fill: none; stroke: currentColor; stroke-width: 4.5; stroke-linecap: round; }
+.f-wash0   { fill: currentColor; fill-opacity: 0.13; }
+.f-wash1   { fill: var(--fig-1); fill-opacity: 0.16; }
+.f-washred { fill: var(--fig-red); fill-opacity: 0.32; }
+.f-ring    { fill: var(--bs-body-bg, #fffaf2); }
+.f-dot-ink { fill: currentColor; }
+.f-dot-1   { fill: var(--fig-1); }
+.f-dot-2   { fill: var(--fig-2); }
+.f-brk { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.bk1 { stroke: var(--fig-1); }
+.bk2 { stroke: var(--fig-2); }
+.bkink { stroke: currentColor; }
+
+/* Below Bootstrap's lg breakpoint Quarto parks the dark-mode toggle beside the brand; send it to the far right. */
+@media (max-width: 991px) and (min-width: 576px) {
+  .navbar .quarto-navbar-tools { order: 99 !important; margin-left: auto !important; }
+}
+
+/* second-pass additions: overbars, stacked sub/superscripts, budget lines */
+.f-bar { fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; }
+.f-sub-eq { font-size: 10.5px; }
+.f-sub-s  { font-size: 9.5px; }
+.f-bc { stroke-width: 1.7; }

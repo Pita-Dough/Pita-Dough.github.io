@@ -18,45 +18,17 @@ website:
   open-graph: true
   search: false
   page-navigation: false
+  # Flat navbar: every top-level page is exactly one click away, on phones too.
+  # The "Peter Doe" brand (site title) links to index.qmd, the About page.
   navbar:
+    collapse: false
     left:
       - text: Research
-        href: index.qmd
-      - text: Teaching
-        menu:
-          - text: "ECON 212: Principles of Microeconomics"
-            href: econ212/index.qmd
-          - text: "ECON 312: Intermediate Microeconomics"
-            href: econ312/index.qmd
-  sidebar:
-    - id: econ212
-      title: "ECON 212"
-      style: docked
-      contents:
-        - text: Home
-          href: econ212/index.qmd
-        - text: Schedule
-          href: econ212/schedule.qmd
-        - text: Materials
-          href: econ212/materials.qmd
-        - text: Syllabus (PDF)
-          href: econ212/files/ECON212_Syllabus.pdf
-        - text: "Moodle (submissions) ↗"
-          href: https://courses202608.hope.edu/course/view.php?id=1874
-    - id: econ312
-      title: "ECON 312"
-      style: docked
-      contents:
-        - text: Home
-          href: econ312/index.qmd
-        - text: Schedule
-          href: econ312/schedule.qmd
-        - text: Materials
-          href: econ312/materials.qmd
-        - text: Syllabus (PDF)
-          href: econ312/files/ECON312_Syllabus.pdf
-        - text: "Moodle (submissions) ↗"
-          href: https://courses202608.hope.edu/   # TODO: replace with the ECON 312 course URL
+        href: research.qmd
+      - text: ECON 212
+        href: econ212/index.qmd
+      - text: ECON 312
+        href: econ312/index.qmd
 
 format:
   html:

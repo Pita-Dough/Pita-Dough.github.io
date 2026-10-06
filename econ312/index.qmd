@@ -2,16 +2,37 @@
 title: "ECON 312: Intermediate Microeconomics"
 subtitle: "Fall 2026"
 listing:
-  id: upcoming
-  contents: schedule.yml
-  template: ../_templates/upcoming.ejs
-  sort: false
-  sort-ui: false
-  filter-ui: false
-  page-size: 500
-  template-params:
-    moodle: "https://courses202608.hope.edu/"
+  - id: upcoming
+    contents: schedule.yml
+    template: ../_templates/upcoming.ejs
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+    template-params:
+      moodle: "https://courses202608.hope.edu/"
+  - id: schedule
+    contents: schedule.yml
+    template: ../_templates/schedule.ejs
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    page-size: 500
+    template-params:
+      moodle: "https://courses202608.hope.edu/"
+page-layout: custom
 ---
+
+::: {.course-shell}
+
+::: {.course-fig .course-fig-l}
+{{< include ../_figures/e312-left.html >}}
+:::
+
+::: {.course-main}
+
+<h1 class="course-title">ECON 312: Intermediate Microeconomics</h1>
+<p class="course-subtitle">Fall 2026</p>
 
 ::: {.moodle-banner}
 **Everything you submit goes through Moodle.** Notes, handouts and the schedule live here.
@@ -19,12 +40,26 @@ listing:
 [Open Moodle ↗](https://courses202608.hope.edu/){.submit-btn}
 :::
 
-## Coming up
+::: {.course-jump}
+[Coming up](#coming-up)
+[Full schedule](#full-schedule)
+[Course information](#course-info)
+[Syllabus (PDF)](files/ECON312_Syllabus.pdf)
+:::
+
+## Coming up {#coming-up}
 
 ::: {#upcoming}
 :::
 
-## Course information
+## Full schedule {#full-schedule}
+
+The highlighted row is the next class meeting; past meetings are dimmed.
+
+::: {#schedule}
+:::
+
+## Course information {#course-info}
 
 ```{=html}
 <table class="course-info" data-quarto-disable-processing="true">
@@ -38,3 +73,11 @@ listing:
 <tr><td>Syllabus</td><td><a href="files/ECON312_Syllabus.pdf">PDF</a></td></tr>
 </table>
 ```
+
+:::
+
+::: {.course-fig .course-fig-r}
+{{< include ../_figures/e312-right.html >}}
+:::
+
+:::

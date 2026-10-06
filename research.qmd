@@ -1,0 +1,17 @@
+---
+title: "Research"
+listing:
+  id: papers
+  contents: papers.yml
+  template: _paper-list.ejs
+  sort: false
+  sort-ui: false
+  filter-ui: false
+---
+
+## Working Papers
+
+::: {#papers}
+:::
+
+See also my [CV](files/CV-Doe.pdf) and [Google Scholar profile](https://scholar.google.com/citations?user=j0WhL6kAAAAJ&hl=en&oi=sra).
